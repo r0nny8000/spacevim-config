@@ -13,6 +13,5 @@ mv .SpaceVim.d .SpaceVim.d.legacy
 ln -s "$pwd" .SpaceVim.d
 
 echo ' done.'
-ls -la .SpaceVim*
 
 cd "$pwd" || exit
