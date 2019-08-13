@@ -8,8 +8,8 @@ echo 'Creating symbolic links'
 cd ~ || exit
 
 echo -n 'from: '
-echo "to:   $pwd"
 pwd
+echo "to:   $pwd"
 
 echo 'delete exisitng lins or backup existing files/directories...'
 if [ -h .SpaceVim.d ]; then
