@@ -2,16 +2,16 @@
 
 pwd=$(pwd)
 
-echo "origin: $pwd"
 
-echo 'Creating symbolic links...'
+echo 'Creating symbolic links'
 
 cd ~ || exit
 
-echo -n 'in: '
+echo -n 'from: '
+echo "to:   $pwd"
 pwd
 
-echo 'delete or backup...'
+echo 'delete exisitng lins or backup existing files/directories...'
 if [ -h .SpaceVim.d ]; then
   rm .SpaceVim.d
 fi
@@ -29,9 +29,7 @@ if [ -f .gvimrc ]; then
 fi
 
 
-
-
-echo 'creating...'
+echo 'creating links...'
 ln -s "$pwd" .SpaceVim.d
 ln -s "$pwd/gvimrc" .gvimrc
 
