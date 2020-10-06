@@ -23,24 +23,26 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
-
+    colorscheme = "gruvbox"
+    colorscheme_bg = "dark"
+    default_indent = 4
+    
 [[layers]]
-  name = "colorscheme"
-
-[options]
-  colorscheme = "gruvbox"
-  colorscheme_bg = "dark"
+    name = "colorscheme"
 
 # Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto-completion-return-key-behavior = "complete"
-auto-completion-tab-key-behavior = "smart"
+    name = 'autocomplete'
+    auto-completion-return-key-behavior = "complete"
+    auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
+    name = 'shell'
+    default_position = 'top'
+    default_height = 30
 
 [[layers]]
-name = 'git'
+    name = 'git'
+
+#[[layers]]
+#  name = "lang#markdown"
