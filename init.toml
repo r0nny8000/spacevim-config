@@ -44,5 +44,8 @@
 [[layers]]
     name = 'git'
 
+[[layers]]
+    name = "lang#html"
+
 #[[layers]]
 #  name = "lang#markdown"
