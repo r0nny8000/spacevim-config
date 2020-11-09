@@ -37,6 +37,9 @@
     auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
+    name = "ctrlp"
+
+[[layers]]
     name = 'shell'
     default_position = 'top'
     default_height = 30
