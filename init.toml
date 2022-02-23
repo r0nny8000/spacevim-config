@@ -26,6 +26,7 @@
     colorscheme = "gruvbox"
     colorscheme_bg = "dark"
     default_indent = 4
+    relativenumber = false
     
 [[layers]]
     name = "colorscheme"
