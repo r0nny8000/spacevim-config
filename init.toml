@@ -41,6 +41,7 @@
 
 [[layers]]
     name = "lang#python"
+    python_interpreter = "~/.pyenv/shims/python"
 
 [[layers]]
     name = "lang#html"
