@@ -33,7 +33,7 @@
 
 [[layers]]
     name = "shell"
-    default_position = 'top'
+    default_position = "bottom" 
     default_height = 32
 
 [[layers]]
